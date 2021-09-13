@@ -14,6 +14,18 @@
         android:textSize="18dp"
         android:textColorHighlight="#f78554"
         android:layout_margin="15dp"
-        android:layout_gravity="center"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Your name"
+        android:layout_marginHorizontal="10dp"
+        android:maxLines="@integer/material_motion_duration_long_1"
+        android:textColorHighlight="@color/black"
+        android:layout_margin="10dp"
+        android:layout_gravity="right"
+        android:lineHeight="20dp" />
 
 </LinearLayout>
