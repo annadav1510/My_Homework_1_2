@@ -47,4 +47,14 @@
         android:textColorHighlight="#ff0101"
         android:layout_margin="15dp" />
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:text="Your password"
+        android:layout_margin="10dp"
+        android:layout_gravity="right"
+        android:lineHeight="@dimen/material_emphasis_disabled" />
+
 </LinearLayout>
