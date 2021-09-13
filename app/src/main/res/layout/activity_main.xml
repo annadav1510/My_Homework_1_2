@@ -28,4 +28,15 @@
         android:layout_gravity="right"
         android:lineHeight="20dp" />
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:text="Your phone number"
+        android:textStyle="italic"
+        android:textSize="15dp"
+        android:textColor="#ff5667"
+        android:layout_gravity="center"
+        android:layout_margin="15dp" />
+
 </LinearLayout>
