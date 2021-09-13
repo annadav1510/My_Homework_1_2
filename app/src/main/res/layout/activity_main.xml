@@ -39,4 +39,12 @@
         android:layout_gravity="center"
         android:layout_margin="15dp" />
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="order number"
+        android:textColorHighlight="#ff0101"
+        android:layout_margin="15dp" />
+
 </LinearLayout>
